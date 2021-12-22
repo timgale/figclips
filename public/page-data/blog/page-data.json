@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---src-pages-blog-index-js",
+    "path": "/blog/",
+    "result": {"data":{"allMdx":{"nodes":[{"frontmatter":{"title":"Initial Commit","date":"December 21, 2021"},"id":"f0769f79-a5fc-5faf-96ba-d7e54a22bc57","slug":"initial-commit"}]}},"pageContext":{}},
+    "staticQueryHashes": ["3159585216"]}
