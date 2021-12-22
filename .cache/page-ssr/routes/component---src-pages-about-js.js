@@ -947,7 +947,10 @@ exports.shallowCompare = shallowCompare;
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "container": () => (/* binding */ container),
+/* harmony export */   "headingContainer": () => (/* binding */ headingContainer),
 /* harmony export */   "heading": () => (/* binding */ heading),
+/* harmony export */   "headingImage": () => (/* binding */ headingImage),
+/* harmony export */   "main": () => (/* binding */ main),
 /* harmony export */   "siteTitle": () => (/* binding */ siteTitle),
 /* harmony export */   "navLinks": () => (/* binding */ navLinks),
 /* harmony export */   "navLinkItem": () => (/* binding */ navLinkItem),
@@ -955,7 +958,10 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ });
 // Exports
 var container = "layout-module--container--eLBMS";
+var headingContainer = "layout-module--heading-container--ezb4G";
 var heading = "layout-module--heading--8VjLO";
+var headingImage = "layout-module--heading-image--4HnCR";
+var main = "layout-module--main--5VKR9";
 var siteTitle = "layout-module--site-title--5N6mf";
 var navLinks = "layout-module--nav-links--EROwB";
 var navLinkItem = "layout-module--nav-link-item--pfCo2";
@@ -3804,7 +3810,7 @@ module.exports = [];
 /***/ ((module) => {
 
 "use strict";
-module.exports = JSON.parse('{"data":{"site":{"siteMetadata":{"title":"FigClips"}}}}');
+module.exports = JSON.parse('{"data":{"site":{"siteMetadata":{"title":"fig clips"}}}}');
 
 /***/ })
 
