@@ -2,6 +2,7 @@ import * as React from "react";
 import { graphql } from "gatsby";
 import { MDXRenderer } from "gatsby-plugin-mdx";
 import Layout from "../../components/layout";
+import Video from "../../components/video";
 
 const BlogPost = ({ data }) => {
     return (
@@ -10,6 +11,10 @@ const BlogPost = ({ data }) => {
             <MDXRenderer>
                 {data.mdx.body}
             </MDXRenderer>
+            <Video
+                videoSrcURL={data.mdx.frontmatter.videoSourceURL}
+                videoTitle={data.mdx.frontmatter.videoTitle}
+            />
         </Layout>
     )
 }
@@ -20,6 +25,8 @@ export const query = graphql`
             frontmatter {
                 title
                 date(formatString: "MMMM D, YYYY")
+                videoSourceURL
+                videoTitle
             }
             body
         }
