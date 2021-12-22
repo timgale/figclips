@@ -4,13 +4,23 @@ import * as React from 'react'
 // import { StaticImage } from 'gatsby-plugin-image'
 import { 
   container,
+  headingContainer,
+  heading,
+  headingImage,
+  main,
 } from '../components/layout.module.css'
 
 // Step 2: Define your component
 const IndexPage = () => {
   return (
     <div className={container}>
-      <h1>FigClips</h1>
+      <div className={headingContainer}>
+        <span className={headingImage}></span>
+        <h1 className={heading}>FigClips</h1>
+      </div>
+      <div className={main}>
+        <p>Check back soon</p>
+      </div>
     </div>
     // <Layout pageTitle="Home">
     //   <p>Welcome to FigClips! Your regular dose of Figma tips.</p>
