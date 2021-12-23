@@ -15,6 +15,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */   "headingContainer": () => (/* binding */ headingContainer),
 /* harmony export */   "heading": () => (/* binding */ heading),
 /* harmony export */   "headingImage": () => (/* binding */ headingImage),
+/* harmony export */   "headingLink": () => (/* binding */ headingLink),
 /* harmony export */   "main": () => (/* binding */ main),
 /* harmony export */   "siteTitle": () => (/* binding */ siteTitle),
 /* harmony export */   "navLinks": () => (/* binding */ navLinks),
@@ -28,6 +29,7 @@ var container = "layout-module--container--eLBMS";
 var headingContainer = "layout-module--heading-container--ezb4G";
 var heading = "layout-module--heading--8VjLO";
 var headingImage = "layout-module--heading-image--4HnCR";
+var headingLink = "layout-module--heading-link--GV0R0";
 var main = "layout-module--main--5VKR9";
 var siteTitle = "layout-module--site-title--5N6mf";
 var navLinks = "layout-module--nav-links--EROwB";
@@ -69,7 +71,8 @@ const Layout = ({
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1__.createElement("title", null, pageTitle, " | ", data.site.siteMetadata.title), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1__.createElement("header", {
     className: _layout_module_css__WEBPACK_IMPORTED_MODULE_3__.headingContainer
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1__.createElement(gatsby__WEBPACK_IMPORTED_MODULE_2__.Link, {
-    to: "/"
+    to: "/",
+    className: _layout_module_css__WEBPACK_IMPORTED_MODULE_3__.headingLink
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1__.createElement("span", {
     className: _layout_module_css__WEBPACK_IMPORTED_MODULE_3__.headingImage
   }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1__.createElement("h1", {

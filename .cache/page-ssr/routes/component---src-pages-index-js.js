@@ -15,6 +15,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */   "headingContainer": () => (/* binding */ headingContainer),
 /* harmony export */   "heading": () => (/* binding */ heading),
 /* harmony export */   "headingImage": () => (/* binding */ headingImage),
+/* harmony export */   "headingLink": () => (/* binding */ headingLink),
 /* harmony export */   "main": () => (/* binding */ main),
 /* harmony export */   "siteTitle": () => (/* binding */ siteTitle),
 /* harmony export */   "navLinks": () => (/* binding */ navLinks),
@@ -28,6 +29,7 @@ var container = "layout-module--container--eLBMS";
 var headingContainer = "layout-module--heading-container--ezb4G";
 var heading = "layout-module--heading--8VjLO";
 var headingImage = "layout-module--heading-image--4HnCR";
+var headingLink = "layout-module--heading-link--GV0R0";
 var main = "layout-module--main--5VKR9";
 var siteTitle = "layout-module--site-title--5N6mf";
 var navLinks = "layout-module--nav-links--EROwB";
@@ -51,8 +53,10 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ });
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var _components_layout_module_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../components/layout.module.css */ "./src/components/layout.module.css");
+/* harmony import */ var gatsby__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! gatsby */ "./.cache/gatsby-browser-entry.js");
+/* harmony import */ var _components_layout_module_css__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../components/layout.module.css */ "./src/components/layout.module.css");
 // Step 1: Import React
+
  // import Layout from '../components/layout'
 // import { StaticImage } from 'gatsby-plugin-image'
 
@@ -60,15 +64,18 @@ __webpack_require__.r(__webpack_exports__);
 
 const IndexPage = () => {
   return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
-    className: _components_layout_module_css__WEBPACK_IMPORTED_MODULE_1__.container
+    className: _components_layout_module_css__WEBPACK_IMPORTED_MODULE_2__.container
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
-    className: _components_layout_module_css__WEBPACK_IMPORTED_MODULE_1__.headingContainer
+    className: _components_layout_module_css__WEBPACK_IMPORTED_MODULE_2__.headingContainer
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(gatsby__WEBPACK_IMPORTED_MODULE_1__.Link, {
+    to: "/",
+    className: _components_layout_module_css__WEBPACK_IMPORTED_MODULE_2__.headingLink
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("span", {
-    className: _components_layout_module_css__WEBPACK_IMPORTED_MODULE_1__.headingImage
+    className: _components_layout_module_css__WEBPACK_IMPORTED_MODULE_2__.headingImage
   }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("h1", {
-    className: _components_layout_module_css__WEBPACK_IMPORTED_MODULE_1__.heading
-  }, "FigClips")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
-    className: _components_layout_module_css__WEBPACK_IMPORTED_MODULE_1__.main
+    className: _components_layout_module_css__WEBPACK_IMPORTED_MODULE_2__.heading
+  }, "FigClips"))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
+    className: _components_layout_module_css__WEBPACK_IMPORTED_MODULE_2__.main
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("p", null, "Check back soon"))) // <Layout pageTitle="Home">
   //   <p>Welcome to FigClips! Your regular dose of Figma tips.</p>
   //   <StaticImage

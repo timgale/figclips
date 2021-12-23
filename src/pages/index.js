@@ -16,6 +16,7 @@ import {
 const IndexPage = () => {
   return (
     <div className={container}>
+      <title>FigClips | Figma tips and resources</title>
       <div className={headingContainer}>
         <Link to="/" className={headingLink}>
           <span className={headingImage}></span>
