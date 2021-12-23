@@ -19,7 +19,9 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */   "siteTitle": () => (/* binding */ siteTitle),
 /* harmony export */   "navLinks": () => (/* binding */ navLinks),
 /* harmony export */   "navLinkItem": () => (/* binding */ navLinkItem),
-/* harmony export */   "navLinkText": () => (/* binding */ navLinkText)
+/* harmony export */   "navLinkText": () => (/* binding */ navLinkText),
+/* harmony export */   "video": () => (/* binding */ video),
+/* harmony export */   "videoContent": () => (/* binding */ videoContent)
 /* harmony export */ });
 // Exports
 var container = "layout-module--container--eLBMS";
@@ -31,6 +33,8 @@ var siteTitle = "layout-module--site-title--5N6mf";
 var navLinks = "layout-module--nav-links--EROwB";
 var navLinkItem = "layout-module--nav-link-item--pfCo2";
 var navLinkText = "layout-module--nav-link-text--ac2nV";
+var video = "layout-module--video--qE80G";
+var videoContent = "layout-module--video-content--FYuV5";
 
 
 /***/ }),

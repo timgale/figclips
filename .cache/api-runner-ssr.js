@@ -6,6 +6,10 @@ var plugins = [{
       name: 'gatsby-plugin-mdx',
       plugin: require('/Users/timgale/Documents/Side Projects/figclips/node_modules/gatsby-plugin-mdx/gatsby-ssr'),
       options: {"plugins":[],"extensions":[".mdx"],"defaultLayouts":{},"gatsbyRemarkPlugins":[],"lessBabel":false,"remarkPlugins":[],"rehypePlugins":[],"mediaTypes":["text/markdown","text/x-markdown"],"root":"/Users/timgale/Documents/Side Projects/figclips","commonmark":false},
+    },{
+      name: 'gatsby-plugin-manifest',
+      plugin: require('/Users/timgale/Documents/Side Projects/figclips/node_modules/gatsby-plugin-manifest/gatsby-ssr'),
+      options: {"plugins":[],"name":"GatsbyJS","short_name":"GatsbyJS","start_url":"/","display":"standalone","icon":"src/images/icon.png","crossOrigin":"use-credentials","legacy":true,"theme_color_in_head":true,"cache_busting_mode":"query","include_favicon":true,"cacheDigest":"2acee435fea033017152bfd7b5c7f896"},
     }]
 /* global plugins */
 // During bootstrap, we write requires at top of this file which looks like:
