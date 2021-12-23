@@ -7,4 +7,7 @@ module.exports = [{
     },{
       plugin: require('../node_modules/gatsby-plugin-manifest/gatsby-browser.js'),
       options: {"plugins":[],"name":"GatsbyJS","short_name":"GatsbyJS","start_url":"/","display":"standalone","icon":"src/images/icon.png","crossOrigin":"use-credentials","legacy":true,"theme_color_in_head":true,"cache_busting_mode":"query","include_favicon":true,"cacheDigest":"2acee435fea033017152bfd7b5c7f896"},
+    },{
+      plugin: require('../gatsby-browser.js'),
+      options: {"plugins":[]},
     }]

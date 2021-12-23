@@ -9,6 +9,7 @@ import {
   heading,
   headingImage,
   headingLink,
+  headingTagline,
   main,
 } from '../components/layout.module.css'
 
@@ -18,10 +19,13 @@ const IndexPage = () => {
     <div className={container}>
       <title>FigClips | Figma tips and resources</title>
       <div className={headingContainer}>
-        <Link to="/" className={headingLink}>
-          <span className={headingImage}></span>
-          <h1 className={heading}>FigClips</h1>
-        </Link>
+        <div>
+          <Link to="/" className={headingLink}>
+            <span className={headingImage}></span>
+            <h1 className={heading}>FigClips</h1>
+          </Link>
+          <span className={headingTagline}>Tips and tricks for your Figma design workflow</span>
+        </div>
       </div>
       <div className={main}>
         <p>Check back soon</p>

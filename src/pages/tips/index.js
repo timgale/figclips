@@ -1,22 +1,25 @@
 import * as React from 'react'
 import { Link, graphql } from 'gatsby'
 import Layout from '../../components/layout'
+import {
+    post
+} from '../../components/layout.module.css'
 
 const TipsPage = ({ data }) => {
     return (
-        <Layout pageTitle="Figma Tips">
-                {
-                    data.allMdx.nodes.map(node => (
-                        <article key={node.id}>
-                            <h2>
-                                <Link to={`/tips/${node.slug}`}>
-                                    {node.frontmatter.title}
-                                </Link>
-                            </h2>
-                            <p>{node.frontmatter.date}</p>
-                        </article>
-                    )) 
-                }
+        <Layout>
+            {
+                data.allMdx.nodes.map(node => (
+                    <article key={node.id}>
+                        <div className={post}>
+                            <Link to={`/tips/${node.slug}`}>
+                                <h2>{node.frontmatter.title}</h2>
+                                    <p>{node.excerpt}</p>
+                            </Link>
+                        </div>
+                    </article>
+                )) 
+            }
         </Layout>
     )
 }
@@ -31,6 +34,7 @@ export const query = graphql`
                 }
                 id
                 slug
+                excerpt
             }
         }
     }

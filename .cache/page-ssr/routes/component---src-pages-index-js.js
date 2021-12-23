@@ -21,8 +21,11 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */   "navLinks": () => (/* binding */ navLinks),
 /* harmony export */   "navLinkItem": () => (/* binding */ navLinkItem),
 /* harmony export */   "navLinkText": () => (/* binding */ navLinkText),
+/* harmony export */   "navLinkTextActive": () => (/* binding */ navLinkTextActive),
 /* harmony export */   "video": () => (/* binding */ video),
-/* harmony export */   "videoContent": () => (/* binding */ videoContent)
+/* harmony export */   "videoContent": () => (/* binding */ videoContent),
+/* harmony export */   "post": () => (/* binding */ post),
+/* harmony export */   "postFocus": () => (/* binding */ postFocus)
 /* harmony export */ });
 // Exports
 var container = "layout-module--container--eLBMS";
@@ -35,8 +38,11 @@ var siteTitle = "layout-module--site-title--5N6mf";
 var navLinks = "layout-module--nav-links--EROwB";
 var navLinkItem = "layout-module--nav-link-item--pfCo2";
 var navLinkText = "layout-module--nav-link-text--ac2nV";
+var navLinkTextActive = "layout-module--nav-link-text-active--Vi5nz";
 var video = "layout-module--video--qE80G";
 var videoContent = "layout-module--video-content--FYuV5";
+var post = "layout-module--post--WJJr3";
+var postFocus = "layout-module--post-focus--9Z+4h";
 
 
 /***/ }),
@@ -65,7 +71,7 @@ __webpack_require__.r(__webpack_exports__);
 const IndexPage = () => {
   return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
     className: _components_layout_module_css__WEBPACK_IMPORTED_MODULE_2__.container
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("title", null, "FigClips | Figma tips and resources"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
     className: _components_layout_module_css__WEBPACK_IMPORTED_MODULE_2__.headingContainer
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(gatsby__WEBPACK_IMPORTED_MODULE_1__.Link, {
     to: "/",

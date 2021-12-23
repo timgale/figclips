@@ -6,9 +6,11 @@ import {
     heading,
     headingImage,
     headingLink,
+    headingTagline,
     navLinks,
     navLinkItem,
-    navLinkText
+    navLinkText,
+    navLinkTextActive,
 } from './layout.module.css'
 
 const Layout = ({ pageTitle, children }) => {
@@ -25,21 +27,24 @@ const Layout = ({ pageTitle, children }) => {
     <div className={container}>
       <title>{pageTitle} | {data.site.siteMetadata.title}</title>
       <header className={headingContainer}>
-        <Link to="/" className={headingLink}>
-          <span className={headingImage} />
-          <h1 className={heading}>{data.site.siteMetadata.title}</h1>
-        </Link>
+        <div>
+          <Link to="/" className={headingLink}>
+            <span className={headingImage} />
+            <h1 className={heading}>{data.site.siteMetadata.title}</h1>
+          </Link>
+          <span className={headingTagline}>Tips and tricks for your Figma design workflow</span>
+        </div>
       </header>
       <nav>
         <ul className={navLinks}>
             <li className={navLinkItem}>
-              <Link to="/" className={navLinkText}>Home</Link>
+              <Link to="/" className={navLinkText} activeClassName={navLinkTextActive}>Home</Link>
             </li>
             <li className={navLinkItem}>
-                <Link to="/about" className={navLinkText}>About</Link>
+                <Link to="/about" className={navLinkText} activeClassName={navLinkTextActive} partiallyActive={true}>About</Link>
             </li>
             <li className={navLinkItem}>
-                <Link to="/tips" className={navLinkText}>Tips</Link>
+                <Link to="/tips" className={navLinkText} activeClassName={navLinkTextActive} partiallyActive={true}>Tips</Link>
             </li>
         </ul>
       </nav>

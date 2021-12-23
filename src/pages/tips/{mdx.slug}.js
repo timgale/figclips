@@ -3,18 +3,23 @@ import { graphql } from "gatsby";
 import { MDXRenderer } from "gatsby-plugin-mdx";
 import Layout from "../../components/layout";
 import Video from "../../components/video";
+import {
+    postFocus
+} from "../../components/layout.module.css";
 
 const TipPost = ({ data }) => {
-    return (
-        <Layout pageTitle={data.mdx.frontmatter.title}>
-            <p>{data.mdx.frontmatter.date}</p>
-            <MDXRenderer>
-                {data.mdx.body}
-            </MDXRenderer>
-            <Video
-                videoSrcURL={data.mdx.frontmatter.videoSourceURL}
-                videoTitle={data.mdx.frontmatter.videoTitle}
-            />
+    return (        
+        <Layout>
+            <div className={postFocus}>
+                <h2>{data.mdx.frontmatter.title}</h2>
+                    <MDXRenderer>
+                        {data.mdx.body}
+                    </MDXRenderer>
+                    <Video
+                        videoSrcURL={data.mdx.frontmatter.videoSourceURL}
+                        videoTitle={data.mdx.frontmatter.videoTitle}
+                    />
+            </div>
         </Layout>
     )
 }
