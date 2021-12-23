@@ -2,7 +2,12 @@ import * as React from 'react'
 import { Link, graphql } from 'gatsby'
 import Layout from '../../components/layout'
 import {
-    post
+    post,
+    postHeader,
+    postTags,
+    postTitle,
+    tagContent,
+    postTagContainer,
 } from '../../components/layout.module.css'
 
 const TipsPage = ({ data }) => {
@@ -13,8 +18,21 @@ const TipsPage = ({ data }) => {
                     <article key={node.id}>
                         <div className={post}>
                             <Link to={`/tips/${node.slug}`}>
-                                <h2>{node.frontmatter.title}</h2>
-                                    <p>{node.excerpt}</p>
+                                <div className={postHeader}>
+                                    <div className={postTitle}>
+                                        <h2>{node.frontmatter.title}</h2>
+                                    </div>
+                                    <div className={postTags}>
+                                        {
+                                            node.frontmatter.tags.map(tag => (
+                                                <span tag-name={tag} className={postTagContainer}>
+                                                    <span className={tagContent}>{tag}</span>
+                                                </span>
+                                            ))
+                                        }
+                                    </div>
+                                </div>
+                                <p>{node.excerpt}</p>
                             </Link>
                         </div>
                     </article>
@@ -31,6 +49,7 @@ export const query = graphql`
                 frontmatter {
                     title
                     date(formatString: "MMMM D, YYYY")
+                    tags
                 }
                 id
                 slug

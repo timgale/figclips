@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---src-templates-tags-js",
+    "path": "/tips/tags/typography/",
+    "result": {"data":{"allMdx":{"totalCount":1,"edges":[{"node":{"slug":"auto-layout-with-zero-padding","frontmatter":{"title":"Auto Layout with zero padding"}}}]}},"pageContext":{"tag":"Typography"}},
+    "staticQueryHashes": []}

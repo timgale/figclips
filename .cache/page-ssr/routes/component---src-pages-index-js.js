@@ -13,6 +13,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "container": () => (/* binding */ container),
 /* harmony export */   "headingContainer": () => (/* binding */ headingContainer),
+/* harmony export */   "headingTagline": () => (/* binding */ headingTagline),
 /* harmony export */   "heading": () => (/* binding */ heading),
 /* harmony export */   "headingImage": () => (/* binding */ headingImage),
 /* harmony export */   "headingLink": () => (/* binding */ headingLink),
@@ -25,11 +26,17 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */   "video": () => (/* binding */ video),
 /* harmony export */   "videoContent": () => (/* binding */ videoContent),
 /* harmony export */   "post": () => (/* binding */ post),
-/* harmony export */   "postFocus": () => (/* binding */ postFocus)
+/* harmony export */   "postFocus": () => (/* binding */ postFocus),
+/* harmony export */   "postHeader": () => (/* binding */ postHeader),
+/* harmony export */   "postTitle": () => (/* binding */ postTitle),
+/* harmony export */   "postTags": () => (/* binding */ postTags),
+/* harmony export */   "postTagContainer": () => (/* binding */ postTagContainer),
+/* harmony export */   "tagContent": () => (/* binding */ tagContent)
 /* harmony export */ });
 // Exports
 var container = "layout-module--container--eLBMS";
 var headingContainer = "layout-module--heading-container--ezb4G";
+var headingTagline = "layout-module--heading-tagline--5N5Mf";
 var heading = "layout-module--heading--8VjLO";
 var headingImage = "layout-module--heading-image--4HnCR";
 var headingLink = "layout-module--heading-link--GV0R0";
@@ -43,6 +50,11 @@ var video = "layout-module--video--qE80G";
 var videoContent = "layout-module--video-content--FYuV5";
 var post = "layout-module--post--WJJr3";
 var postFocus = "layout-module--post-focus--9Z+4h";
+var postHeader = "layout-module--post-header--CAqmD";
+var postTitle = "layout-module--post-title--NrVGv";
+var postTags = "layout-module--post-tags--Y9yWN";
+var postTagContainer = "layout-module--post-tag-container--TSPht";
+var tagContent = "layout-module--tag-content--DJB7r";
 
 
 /***/ }),
@@ -73,14 +85,16 @@ const IndexPage = () => {
     className: _components_layout_module_css__WEBPACK_IMPORTED_MODULE_2__.container
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("title", null, "FigClips | Figma tips and resources"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
     className: _components_layout_module_css__WEBPACK_IMPORTED_MODULE_2__.headingContainer
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(gatsby__WEBPACK_IMPORTED_MODULE_1__.Link, {
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(gatsby__WEBPACK_IMPORTED_MODULE_1__.Link, {
     to: "/",
     className: _components_layout_module_css__WEBPACK_IMPORTED_MODULE_2__.headingLink
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("span", {
     className: _components_layout_module_css__WEBPACK_IMPORTED_MODULE_2__.headingImage
   }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("h1", {
     className: _components_layout_module_css__WEBPACK_IMPORTED_MODULE_2__.heading
-  }, "FigClips"))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
+  }, "FigClips")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("span", {
+    className: _components_layout_module_css__WEBPACK_IMPORTED_MODULE_2__.headingTagline
+  }, "Tips and tricks for your Figma design workflow"))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
     className: _components_layout_module_css__WEBPACK_IMPORTED_MODULE_2__.main
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("p", null, "Check back soon"))) // <Layout pageTitle="Home">
   //   <p>Welcome to FigClips! Your regular dose of Figma tips.</p>

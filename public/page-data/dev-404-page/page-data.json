@@ -1,5 +1,5 @@
 {
     "componentChunkName": "component---cache-dev-404-page-js",
     "path": "/dev-404-page/",
-    "result": {"data":{"allSiteFunction":{"nodes":[]},"allSitePage":{"nodes":[{"path":"/404/"},{"path":"/404.html"},{"path":"/about/"},{"path":"/"},{"path":"/tips/"},{"path":"/tips/auto-layout-with-zero-padding/"},{"path":"/tips/welcome-to-figclips/"}]}},"pageContext":{}},
+    "result": {"data":{"allSiteFunction":{"nodes":[]},"allSitePage":{"nodes":[{"path":"/tips/tags/auto-layout/"},{"path":"/tips/tags/typography/"},{"path":"/404/"},{"path":"/404.html"},{"path":"/about/"},{"path":"/"},{"path":"/tips/"},{"path":"/tips/auto-layout-with-zero-padding/"},{"path":"/tips/welcome-to-figclips/"}]}},"pageContext":{}},
     "staticQueryHashes": []}

@@ -119,3 +119,37 @@ p {
 .post p {
   margin-bottom: 0;
 }
+.post-header {
+  display: flex;
+}
+.post-title {
+  flex: 3;
+}
+.post-tags {
+  flex: 1;
+  text-align: right;
+  color: #222222;
+}
+.post-tag-container {
+  margin-right: 0.8rem;
+}
+.post-tag-container:last-child {
+  margin-right: 0;
+}
+span[tag-name="Auto Layout"] {
+  background: url("../images/tag-auto-layout.svg") no-repeat;
+  background-size: 14px;
+  width: 14px;
+  height: 14px;
+  display: inline-block;
+}
+span[tag-name="Typography"] {
+  background: url("../images/tag-typography.svg") no-repeat;
+  background-size: 12px;
+  width: 14px;
+  height: 14px;
+  display: inline-block;
+}
+.tag-content {
+  display: none;
+}
