@@ -68,11 +68,13 @@ const Layout = ({
     className: _layout_module_css__WEBPACK_IMPORTED_MODULE_3__.container
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1__.createElement("title", null, pageTitle, " | ", data.site.siteMetadata.title), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1__.createElement("header", {
     className: _layout_module_css__WEBPACK_IMPORTED_MODULE_3__.headingContainer
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1__.createElement(gatsby__WEBPACK_IMPORTED_MODULE_2__.Link, {
+    to: "/"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1__.createElement("span", {
     className: _layout_module_css__WEBPACK_IMPORTED_MODULE_3__.headingImage
   }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1__.createElement("h1", {
     className: _layout_module_css__WEBPACK_IMPORTED_MODULE_3__.heading
-  }, data.site.siteMetadata.title)), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1__.createElement("nav", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1__.createElement("ul", {
+  }, data.site.siteMetadata.title))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1__.createElement("nav", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1__.createElement("ul", {
     className: _layout_module_css__WEBPACK_IMPORTED_MODULE_3__.navLinks
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1__.createElement("li", {
     className: _layout_module_css__WEBPACK_IMPORTED_MODULE_3__.navLinkItem
@@ -87,9 +89,9 @@ const Layout = ({
   }, "About")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1__.createElement("li", {
     className: _layout_module_css__WEBPACK_IMPORTED_MODULE_3__.navLinkItem
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1__.createElement(gatsby__WEBPACK_IMPORTED_MODULE_2__.Link, {
-    to: "/blog",
+    to: "/tips",
     className: _layout_module_css__WEBPACK_IMPORTED_MODULE_3__.navLinkText
-  }, "Blog")))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1__.createElement("main", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1__.createElement("h1", {
+  }, "Tips")))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1__.createElement("main", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1__.createElement("h1", {
     className: _layout_module_css__WEBPACK_IMPORTED_MODULE_3__.heading
   }, pageTitle), children));
 };

@@ -5,6 +5,7 @@ import {
     headingContainer,
     heading,
     headingImage,
+    headingLink,
     navLinks,
     navLinkItem,
     navLinkText
@@ -24,8 +25,10 @@ const Layout = ({ pageTitle, children }) => {
     <div className={container}>
       <title>{pageTitle} | {data.site.siteMetadata.title}</title>
       <header className={headingContainer}>
-        <span className={headingImage} />
-        <h1 className={heading}>{data.site.siteMetadata.title}</h1>
+        <Link to="/" className={headingLink}>
+          <span className={headingImage} />
+          <h1 className={heading}>{data.site.siteMetadata.title}</h1>
+        </Link>
       </header>
       <nav>
         <ul className={navLinks}>
@@ -36,7 +39,7 @@ const Layout = ({ pageTitle, children }) => {
                 <Link to="/about" className={navLinkText}>About</Link>
             </li>
             <li className={navLinkItem}>
-                <Link to="/clips" className={navLinkText}>Clips</Link>
+                <Link to="/tips" className={navLinkText}>Tips</Link>
             </li>
         </ul>
       </nav>

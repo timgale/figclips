@@ -3281,9 +3281,9 @@ exports.components = {
   "component---cache-dev-404-page-js": () => __webpack_require__.e(/*! import() | component---cache-dev-404-page-js */ "component---cache-dev-404-page-js").then(__webpack_require__.bind(__webpack_require__, /*! ./../../dev-404-page.js */ "./.cache/dev-404-page.js")),
   "component---src-pages-404-js": () => __webpack_require__.e(/*! import() | component---src-pages-404-js */ "component---src-pages-404-js").then(__webpack_require__.bind(__webpack_require__, /*! ./../../../src/pages/404.js */ "./src/pages/404.js")),
   "component---src-pages-about-js": () => __webpack_require__.e(/*! import() | component---src-pages-about-js */ "component---src-pages-about-js").then(__webpack_require__.bind(__webpack_require__, /*! ./../../../src/pages/about.js */ "./src/pages/about.js")),
-  "component---src-pages-clips-index-js": () => __webpack_require__.e(/*! import() | component---src-pages-clips-index-js */ "component---src-pages-clips-index-js").then(__webpack_require__.bind(__webpack_require__, /*! ./../../../src/pages/clips/index.js */ "./src/pages/clips/index.js")),
-  "component---src-pages-clips-mdx-slug-js": () => __webpack_require__.e(/*! import() | component---src-pages-clips-mdx-slug-js */ "component---src-pages-clips-mdx-slug-js").then(__webpack_require__.bind(__webpack_require__, /*! ./../../../src/pages/clips/{mdx.slug}.js */ "./src/pages/clips/{mdx.slug}.js")),
-  "component---src-pages-index-js": () => __webpack_require__.e(/*! import() | component---src-pages-index-js */ "component---src-pages-index-js").then(__webpack_require__.bind(__webpack_require__, /*! ./../../../src/pages/index.js */ "./src/pages/index.js"))
+  "component---src-pages-index-js": () => __webpack_require__.e(/*! import() | component---src-pages-index-js */ "component---src-pages-index-js").then(__webpack_require__.bind(__webpack_require__, /*! ./../../../src/pages/index.js */ "./src/pages/index.js")),
+  "component---src-pages-tips-index-js": () => __webpack_require__.e(/*! import() | component---src-pages-tips-index-js */ "component---src-pages-tips-index-js").then(__webpack_require__.bind(__webpack_require__, /*! ./../../../src/pages/tips/index.js */ "./src/pages/tips/index.js")),
+  "component---src-pages-tips-mdx-slug-js": () => __webpack_require__.e(/*! import() | component---src-pages-tips-mdx-slug-js */ "component---src-pages-tips-mdx-slug-js").then(__webpack_require__.bind(__webpack_require__, /*! ./../../../src/pages/tips/{mdx.slug}.js */ "./src/pages/tips/{mdx.slug}.js"))
 };
 
 /***/ }),

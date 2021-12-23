@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---src-pages-tips-index-js",
+    "path": "/tips/",
+    "result": {"data":{"allMdx":{"nodes":[{"frontmatter":{"title":"Welcome to FigClips","date":"December 21, 2021"},"id":"b2726c3b-9136-5f18-8f98-7ba525b1b2a9","slug":"welcome-to-figclips"}]}},"pageContext":{}},
+    "staticQueryHashes": ["3159585216"]}

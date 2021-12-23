@@ -1,5 +1,6 @@
 // Step 1: Import React
 import * as React from 'react'
+import { Link } from 'gatsby'
 // import Layout from '../components/layout'
 // import { StaticImage } from 'gatsby-plugin-image'
 import { 
@@ -7,6 +8,7 @@ import {
   headingContainer,
   heading,
   headingImage,
+  headingLink,
   main,
 } from '../components/layout.module.css'
 
@@ -15,8 +17,10 @@ const IndexPage = () => {
   return (
     <div className={container}>
       <div className={headingContainer}>
-        <span className={headingImage}></span>
-        <h1 className={heading}>FigClips</h1>
+        <Link to="/" className={headingLink}>
+          <span className={headingImage}></span>
+          <h1 className={heading}>FigClips</h1>
+        </Link>
       </div>
       <div className={main}>
         <p>Check back soon</p>

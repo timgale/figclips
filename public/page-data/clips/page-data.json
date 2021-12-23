@@ -1,5 +1,0 @@
-{
-    "componentChunkName": "component---src-pages-clips-index-js",
-    "path": "/clips/",
-    "result": {"data":{"allMdx":{"nodes":[{"frontmatter":{"title":"Welcome to FigClips","date":"December 21, 2021"},"id":"65db97f4-4c67-55b0-8272-62913abdd33e","slug":"welcome-to-figclips"}]}},"pageContext":{}},
-    "staticQueryHashes": ["3159585216"]}

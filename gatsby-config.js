@@ -9,8 +9,8 @@ module.exports = {
     {
       resolve: "gatsby-source-filesystem",
       options: {
-        name: `clips`,
-        path: `${__dirname}/clips`,
+        name: `tips`,
+        path: `${__dirname}/tips`,
       }
     },
     "gatsby-plugin-mdx",
