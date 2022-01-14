@@ -7,6 +7,7 @@ import {
     headingImage,
     headingLink,
     headingTagline,
+    mainNav,
     navLinks,
     navLinkItem,
     navLinkText,
@@ -35,7 +36,7 @@ const Layout = ({ pageTitle, children }) => {
           <span className={headingTagline}>Tips and tricks for your Figma design workflow</span>
         </div>
       </header>
-      <nav>
+      <nav className={mainNav}>
         <ul className={navLinks}>
             <li className={navLinkItem}>
               <Link to="/" className={navLinkText} activeClassName={navLinkTextActive}>Home</Link>
@@ -49,7 +50,7 @@ const Layout = ({ pageTitle, children }) => {
         </ul>
       </nav>
       <main>
-        <h1 className={heading}>{pageTitle}</h1>
+        {/* <h1 className={heading}>{pageTitle}</h1> */}
         {children}
       </main>
     </div>

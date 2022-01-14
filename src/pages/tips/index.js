@@ -12,11 +12,12 @@ import {
 
 const TipsPage = ({ data }) => {
     return (
-        <Layout>
+        <Layout pageTitle="Tips">
             {
                 data.allMdx.nodes.map(node => (
                     <article key={node.id}>
                         <div className={post}>
+                            <title>FigClips | Figma tips and resources</title>
                             <Link to={`/tips/${node.slug}`}>
                                 <div className={postHeader}>
                                     <div className={postTitle}>

@@ -1,5 +1,5 @@
 {
     "componentChunkName": "component---src-templates-tags-js",
     "path": "/tips/tags/auto-layout/",
-    "result": {"data":{"allMdx":{"totalCount":2,"edges":[{"node":{"slug":"auto-layout-with-zero-padding","frontmatter":{"title":"Auto Layout with zero padding"}}},{"node":{"slug":"welcome-to-figclips","frontmatter":{"title":"Welcome to FigClips"}}}]}},"pageContext":{"tag":"Auto Layout"}},
+    "result": {"data":{"allMdx":{"totalCount":3,"edges":[{"node":{"slug":"avatar-stacks","frontmatter":{"title":"Avatar Stacks"}}},{"node":{"slug":"auto-layout-with-zero-padding","frontmatter":{"title":"Auto Layout with zero padding"}}},{"node":{"slug":"welcome-to-figclips","frontmatter":{"title":"Welcome to FigClips"}}}]}},"pageContext":{"tag":"Auto Layout"}},
     "staticQueryHashes": []}

@@ -14,7 +14,7 @@ import {
 
 const TipPost = ({ data }) => {
     return (        
-        <Layout>
+        <Layout pageTitle={data.mdx.frontmatter.title}>
             <div className={postFocus}>
                 <div className={postHeader}>
                     <div className={postTitle}>
