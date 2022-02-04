@@ -6,7 +6,6 @@ import {
     postHeader,
     postTags,
     postTitle,
-    tagContent,
     postTagContainer,
 } from '../../components/layout.module.css'
 
@@ -27,7 +26,7 @@ const TipsPage = ({ data }) => {
                                         {
                                             node.frontmatter.tags.map(tag => (
                                                 <span tag-name={tag} className={postTagContainer}>
-                                                    <span className={tagContent}>{tag}</span>
+                                                    <span className="{tagContent}">{tag}</span>
                                                 </span>
                                             ))
                                         }

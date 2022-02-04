@@ -7,6 +7,7 @@
 .heading-container {
   display: flex;
   justify-content: center;
+  text-align: center;
   margin-bottom: 3rem;
 }
 .heading-tagline {
@@ -16,15 +17,15 @@
 }
 .heading {
   color: #222222;
-  font-family: 'Courier new', monospace;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   display: inline-block;
   font-size: 1.6rem;
 }
 .heading-image {
-  background: url("../images/figclips-logo-light.svg") no-repeat;
-  background-size: 31px;
-  width: 32px;
-  height: 32px;
+  background: url("../images/figclips-logo-light-circle.svg") no-repeat;
+  background-size: 42px;
+  width: 42px;
+  height: 42px;
   display: inline-block;
 }
 .heading-link {
@@ -126,6 +127,12 @@ p {
 }
 .post-header {
   display: flex;
+  flex-direction: row;
+}
+@media (max-width: 600px) {
+  .post-header {
+    flex-direction: column;
+  }
 }
 .post-title {
   flex: 3;
@@ -135,6 +142,12 @@ p {
   text-align: right;
   color: #222222;
 }
+@media (max-width: 600px) {
+  .post-tags {
+    text-align: left;
+    margin-top: 1rem;
+  }
+}
 .post-tag-container {
   margin-right: 0.8rem;
 }
@@ -142,18 +155,43 @@ p {
   margin-right: 0;
 }
 span[tag-name="Auto Layout"] {
-  background: url("../images/tag-auto-layout.svg") no-repeat;
-  background-size: 14px;
-  width: 14px;
-  height: 14px;
+  /* background: url("../images/tag-auto-layout.svg") no-repeat; */
+  /* background-size: 14px; */
+  /* width: 14px; */
+  /* height: 14px; */
   display: inline-block;
+  color: #8A5E29;
+  font-size: 12px;
+  font-weight: 600;
+  background: #FFF4EC;
+  border-radius: 100px;
+  padding: 8px 12px;
+}
+span[tag-name="Components"] {
+  /* background: url("../images/tag-auto-layout.svg") no-repeat; */
+  /* background-size: 14px; */
+  /* width: 14px; */
+  /* height: 14px; */
+  display: inline-block;
+  color: #6A51A7;
+  font-size: 12px;
+  font-weight: 600;
+  background: #F0E2FF;
+  border-radius: 100px;
+  padding: 8px 12px;
 }
 span[tag-name="Typography"] {
-  background: url("../images/tag-typography.svg") no-repeat;
-  background-size: 12px;
-  width: 14px;
-  height: 14px;
+  /* background: url("../images/tag-auto-layout.svg") no-repeat; */
+  /* background-size: 14px; */
+  /* width: 14px; */
+  /* height: 14px; */
   display: inline-block;
+  color: #B65CE0;
+  font-size: 12px;
+  font-weight: 600;
+  background: #F8EEFC;
+  border-radius: 100px;
+  padding: 8px 12px;
 }
 .tag-content {
   display: none;

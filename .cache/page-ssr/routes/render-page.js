@@ -3337,7 +3337,7 @@ var plugins = [{
     "theme_color_in_head": true,
     "cache_busting_mode": "query",
     "include_favicon": true,
-    "cacheDigest": "2acee435fea033017152bfd7b5c7f896"
+    "cacheDigest": "7729b58901251eb3f827b0a83d3303e2"
   }
 }];
 /* global plugins */

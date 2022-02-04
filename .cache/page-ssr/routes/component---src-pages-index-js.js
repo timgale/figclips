@@ -19,6 +19,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */   "headingLink": () => (/* binding */ headingLink),
 /* harmony export */   "main": () => (/* binding */ main),
 /* harmony export */   "siteTitle": () => (/* binding */ siteTitle),
+/* harmony export */   "mainNav": () => (/* binding */ mainNav),
 /* harmony export */   "navLinks": () => (/* binding */ navLinks),
 /* harmony export */   "navLinkItem": () => (/* binding */ navLinkItem),
 /* harmony export */   "navLinkText": () => (/* binding */ navLinkText),
@@ -42,6 +43,7 @@ var headingImage = "layout-module--heading-image--4HnCR";
 var headingLink = "layout-module--heading-link--GV0R0";
 var main = "layout-module--main--5VKR9";
 var siteTitle = "layout-module--site-title--5N6mf";
+var mainNav = "layout-module--main-nav--xOGuV";
 var navLinks = "layout-module--nav-links--EROwB";
 var navLinkItem = "layout-module--nav-link-item--pfCo2";
 var navLinkText = "layout-module--nav-link-text--ac2nV";

@@ -24,7 +24,7 @@ const TipPost = ({ data }) => {
                         {
                             data.mdx.frontmatter.tags.map(tag => (
                                 <span tag-name={tag} className={postTagContainer}>
-                                    <span className={tagContent}>{tag}</span>
+                                    <span className="{tagContent}">{tag}</span>
                                 </span>
                             ))
                         }

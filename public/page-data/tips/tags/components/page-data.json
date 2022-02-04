@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---src-templates-tags-js",
+    "path": "/tips/tags/components/",
+    "result": {"data":{"allMdx":{"totalCount":1,"edges":[{"node":{"slug":"component-descriptions","frontmatter":{"title":"Component Descriptions"}}}]}},"pageContext":{"tag":"Components"}},
+    "staticQueryHashes": []}

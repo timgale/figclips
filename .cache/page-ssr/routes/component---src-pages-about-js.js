@@ -19,6 +19,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */   "headingLink": () => (/* binding */ headingLink),
 /* harmony export */   "main": () => (/* binding */ main),
 /* harmony export */   "siteTitle": () => (/* binding */ siteTitle),
+/* harmony export */   "mainNav": () => (/* binding */ mainNav),
 /* harmony export */   "navLinks": () => (/* binding */ navLinks),
 /* harmony export */   "navLinkItem": () => (/* binding */ navLinkItem),
 /* harmony export */   "navLinkText": () => (/* binding */ navLinkText),
@@ -42,6 +43,7 @@ var headingImage = "layout-module--heading-image--4HnCR";
 var headingLink = "layout-module--heading-link--GV0R0";
 var main = "layout-module--main--5VKR9";
 var siteTitle = "layout-module--site-title--5N6mf";
+var mainNav = "layout-module--main-nav--xOGuV";
 var navLinks = "layout-module--nav-links--EROwB";
 var navLinkItem = "layout-module--nav-link-item--pfCo2";
 var navLinkText = "layout-module--nav-link-text--ac2nV";
@@ -97,7 +99,9 @@ const Layout = ({
     className: _layout_module_css__WEBPACK_IMPORTED_MODULE_3__.heading
   }, data.site.siteMetadata.title)), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1__.createElement("span", {
     className: _layout_module_css__WEBPACK_IMPORTED_MODULE_3__.headingTagline
-  }, "Tips and tricks for your Figma design workflow"))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1__.createElement("nav", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1__.createElement("ul", {
+  }, "Tips and tricks for your Figma design workflow"))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1__.createElement("nav", {
+    className: _layout_module_css__WEBPACK_IMPORTED_MODULE_3__.mainNav
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1__.createElement("ul", {
     className: _layout_module_css__WEBPACK_IMPORTED_MODULE_3__.navLinks
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1__.createElement("li", {
     className: _layout_module_css__WEBPACK_IMPORTED_MODULE_3__.navLinkItem
@@ -119,9 +123,7 @@ const Layout = ({
     className: _layout_module_css__WEBPACK_IMPORTED_MODULE_3__.navLinkText,
     activeClassName: _layout_module_css__WEBPACK_IMPORTED_MODULE_3__.navLinkTextActive,
     partiallyActive: true
-  }, "Tips")))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1__.createElement("main", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1__.createElement("h1", {
-    className: _layout_module_css__WEBPACK_IMPORTED_MODULE_3__.heading
-  }, pageTitle), children));
+  }, "Tips")))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1__.createElement("main", null, children));
 };
 
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (Layout);
@@ -141,14 +143,18 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var _components_layout__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../components/layout */ "./src/components/layout.js");
+/* harmony import */ var gatsby__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! gatsby */ "./.cache/gatsby-browser-entry.js");
 // Step 1: Import React
+
 
  // Step 2: Define your component
 
 const AboutPage = () => {
   return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_components_layout__WEBPACK_IMPORTED_MODULE_1__["default"], {
     pageTitle: "About"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("p", null, "Hi, I'm the creator of this site."));
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("p", null, "Welcome! FigClips is your go to place for bitesized Figma tips to (hopefully) help improve your design workflow."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("p", null, "A project by ", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(gatsby__WEBPACK_IMPORTED_MODULE_2__.Link, {
+    to: "https://timgale.design"
+  }, "Tim Gale"))));
 }; // Step 3: Export your component
 
 
