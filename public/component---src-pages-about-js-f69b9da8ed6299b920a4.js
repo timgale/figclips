@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunktest_site=self.webpackChunktest_site||[]).push([[682],{5518:function(e,t,l){l.r(t);var i=l(7294),n=l(4252),o=l(5444);t.default=function(){return i.createElement(n.Z,{pageTitle:"About"},i.createElement("div",null,i.createElement("p",null,"Welcome! FigClips is your go to place for bitesized Figma tips to (hopefully) help improve your design workflow."),i.createElement("p",null,"A project by ",i.createElement(o.Link,{to:"https://timgale.design"},"Tim Gale"))))}}}]);
+//# sourceMappingURL=component---src-pages-about-js-f69b9da8ed6299b920a4.js.map

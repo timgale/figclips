@@ -9,7 +9,7 @@ import {
     postTitle,
     postTags,
     postTagContainer,
-    tagContent,
+    // tagContent,
 } from "../../components/layout.module.css";
 
 const TipPost = ({ data }) => {
