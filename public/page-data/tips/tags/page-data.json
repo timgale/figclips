@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---src-templates-tags-js",
+    "path": "/tips/tags//",
+    "result": {"data":{"allMdx":{"totalCount":1,"edges":[{"node":{"slug":"file-thumbnails","frontmatter":{"title":"File Thumbnails"}}}]}},"pageContext":{"tag":""}},
+    "staticQueryHashes": []}
